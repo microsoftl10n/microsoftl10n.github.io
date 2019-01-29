@@ -1,0 +1,52 @@
+body {
+    font-family: arial;
+    font-size: 14px;
+    background: white;
+    max-width: 1366px;
+}
+
+/* Hyperlink styles */
+/* 
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+} */
+
+/* Normal 'solid' black border table */
+
+table { font-size: 14px;
+    width: 100%;
+    max-width: 1280px;
+    text-align: left;
+    column-width: 33%;
+    border: 0px;
+    float: left;
+}   
+
+table td {
+max-width:  340px;
+}
+table tr.NamesRow {
+    min-width: 240px;
+    background-color: lightgrey;
+    text-align: left;
+    vertical-align:bottom !important;
+}
+
+table tr.VideoRow {
+    min-width: 240px;
+    vertical-align: top;
+}
+
+
+
