@@ -41,7 +41,7 @@
     ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 12,
-    "versionPublish": "4.9.3",
+    "versionPublish": "4.9.5",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/ms-favicon.ico",
     "noImageResize": "",
@@ -4626,14 +4626,16 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div class=\"row\">\n    <div class=\"embed-responsive embed-responsive-16by9 col-lg-10 col-md-10 col-sm-10 offset-lg-1 offset-md-1 offset-sm-1\">\n        <video controls=\"\">\n            <source src=\"https://microsoftl10n.github.io/vid/MVP%20Takashi%20Takebayashi%20Video%20Clip.mp4\" type=\"video/mp4\">\n                            Your browser does not support this video tag.\n        </video>\n        \n    </div> \n    <h6 class=\"offset-lg-1 offset-md-1 offset-sm-1\">NOTE: This video is in Japanese Language</h6>\n\n</div>",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div class=\"row\">\n    <div class=\"embed-responsive embed-responsive-16by9 col-lg-10 col-md-10 col-sm-10 offset-lg-1 offset-md-1 offset-sm-1\">\n        <video controls=\"\">\n            <source src=\"https://microsoftl10n.github.io/vid/MVP%20Takashi%20Takebayashi%20Video%20Clip.mp4\" type=\"video/mp4\">\n            <track src=\"./vid/MVP%20Takashi%20Takebayashi%20Video%20Clip.vtt\" kind=\"subtitles\" srclang=\"en\" label=\"English\">\n                            Your browser does not support this video tag.\n        </video>\n        \n    </div> \n    <h6 class=\"offset-lg-1 offset-md-1 offset-sm-1\">NOTE: This video is in Japanese Language</h6>\n\n</div>",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 10px 10px;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
             "Extension"
           ],
           "_name": "pro.custom-html",
-          "_anchor": "custom-html-k"
+          "_anchor": "custom-html-k",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_customTemplate": true,

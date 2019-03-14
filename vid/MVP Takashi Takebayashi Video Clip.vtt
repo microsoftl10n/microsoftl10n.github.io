@@ -16,7 +16,7 @@ The most important message I’d like to tell you here is
 Let me explain the situation where the current technical document localization is in.
 
 00:00:27.340 --> 00:00:36.290
-Firstly, documents have been released day by day that human translation cannot keep up with updating.
+Firstly, documents have been released day by day and human translation cannot keep up with updating.
 
 00:00:36.290 --> 00:00:40.450
 Even though machine translation helps localization,
@@ -25,10 +25,10 @@ Even though machine translation helps localization,
 the quality of machine-translated Japanese is not good which may occasionally make Japanese developers confused.
 
 00:00:51.900 --> 00:00:57.730
-When to talk about degree of understanding of English by Japanese, as this graph shows,
+When talking about the degree of understanding of English by Japanese, as this graph shows,
 
 00:00:57.740 --> 00:01:03.200
-there are certain amount of people who are fine communicating with English, with which the original English documents work well.
+there are certain amount of people who are fine communicating with English, and for them the original English documents work well.
 
 00:01:03.200 --> 00:01:06.280
 However, majority of people still prefer to refer to Japanese documents,
@@ -43,16 +43,16 @@ which could be a blocking issue for us to reach to them.
 Based on current situation, my suggestion for better technical document localization
 
 00:01:22.080 --> 00:01:25.410
-is that utilizing machine translation as an initial translation tool
+is to use machine translation as an initial translation tool
 
 00:01:25.420 --> 00:01:28.980
-to accommodate with rapid document updates,
+to handle rapid document updates,
 
 00:01:28.990 --> 00:01:36.040
-while community and I create/submit Pull Request to suggest refinement.
+while community and I create/submit Pull Request to suggest refinements.
 
 00:01:36.050 --> 00:01:40.190
-Machine translation learns better localization by Pull Request
+Machine translation learns how to improve localization by Pull Requests
 
 00:01:40.200 --> 00:01:43.240
 Those 3rd and 4th steps
@@ -64,7 +64,7 @@ will work not only for better document quality
 but also refine machine translation memory for further localization.
 
 00:01:51.620 --> 00:01:56.840
-Also, I’d like to emphasis the benefit that community members would enjoy through your localization contribution.
+Also, I’d like to emphasize the benefit that community members would enjoy through your localization contribution.
 
 00:01:57.960 --> 00:02:02.680
 The first one is that it’s very helpful activity for the developers who want to read technical documents in Japanese.
@@ -76,7 +76,7 @@ The second one is also great
 that this contribution is reflected in your Activity on GitHub as it is made by Pull Request and Commit submission.
 
 00:02:16.200 --> 00:02:25.780
-It is highly awesome for lots of developers who want to feed “Grass” on GitHub contributions.
+It is awesome for lots of developers who want to feed “Grass” on GitHub contributions.
 
 00:02:27.780 --> 00:02:29.480
 As a summary,

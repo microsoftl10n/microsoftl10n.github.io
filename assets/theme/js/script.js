@@ -1001,4 +1001,22 @@
             });
         }
     }
+    // Form Styler
+    if (isBuilder) {
+    	$(document).on('add.cards', function(event) {
+    		if ($(event.target).find('.form-with-styler').length) {
+    			var form = $(event.target).find('.form-with-styler');
+    			$(form).find('select:not("[multiple]")').each(function() {
+    				$(this).styler();
+    			});
+    		}
+    	});
+    }
+    else {
+    	$('section .form-with-styler').each(function() {
+    		$(this).find('select:not("[multiple]")').each(function() {
+    			$(this).styler();
+    		});
+    	});
+    }
 })(jQuery);
