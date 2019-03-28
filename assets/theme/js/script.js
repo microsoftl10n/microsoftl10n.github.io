@@ -17,9 +17,10 @@
         var $this = $(this);
         var $prev = $this.prev();
         var $win = $(window);
+        var isIE = false || !!document.documentMode;
 
         function initReveal() {
-            if ($this.outerHeight() <= $win.outerHeight()) {
+            if (!isIE && $this.outerHeight() <= $win.outerHeight()) {
                 $this.css({
                     'z-index': -999,
                     position: 'fixed',

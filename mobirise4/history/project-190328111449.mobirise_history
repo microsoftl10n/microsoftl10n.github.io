@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Community Leaderboards",
-    "currentPage": "MVPLeaderboard.html",
+    "currentPage": "Video_Gallery.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -25,7 +25,7 @@
         "display4Size": 1,
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
       "additionalSetColors": [
         "#31af28"
@@ -49,8 +49,7 @@
     "publishType": "local",
     "publishPath": "file:///Users/aldo/DEV/Microsoft/aldonetti.github.io",
     "cookiesAlert": "",
-    "gdpr": "",
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-137199106-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-137199106-1');\r\n</script>"
+    "gdpr": ""
   },
   "pages": {
     "index.html": {
